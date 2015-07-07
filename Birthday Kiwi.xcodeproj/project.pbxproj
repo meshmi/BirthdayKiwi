@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		490D31CB1B13108A00B8FD18 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490D31CA1B13108A00B8FD18 /* StringExtension.swift */; };
+		490D31CD1B1313A300B8FD18 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490D31CC1B1313A300B8FD18 /* Database.swift */; };
+		490D31CF1B13166900B8FD18 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490D31CE1B13166900B8FD18 /* Alerts.swift */; };
+		490D31D11B13527900B8FD18 /* DayMonthDigitFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490D31D01B13527900B8FD18 /* DayMonthDigitFieldView.swift */; };
+		490D31D51B1361A900B8FD18 /* NumericViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490D31D41B1361A900B8FD18 /* NumericViewDelegate.swift */; };
+		493FBF981B19E8A00037AD31 /* CenturyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493FBF971B19E8A00037AD31 /* CenturyView.swift */; };
+		496615211B11D93F00F9A812 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496615201B11D93F00F9A812 /* NameViewController.swift */; };
+		496615231B11D95000F9A812 /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496615221B11D95000F9A812 /* DayViewController.swift */; };
+		496615251B11D95800F9A812 /* MonthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496615241B11D95800F9A812 /* MonthViewController.swift */; };
+		496615271B11D96000F9A812 /* YearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496615261B11D96000F9A812 /* YearViewController.swift */; };
+		496615291B11F5E600F9A812 /* NumericView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496615281B11F5E600F9A812 /* NumericView.swift */; };
+		4986F8F51B3B29AD001F9FD8 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4986F8F41B3B29AD001F9FD8 /* CustomTableViewCell.swift */; };
+		4986F8F71B3B344E001F9FD8 /* DateAndTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4986F8F61B3B344E001F9FD8 /* DateAndTime.swift */; };
+		499887531B19B06700C6587F /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499887521B19B06700C6587F /* MonthView.swift */; };
+		499887551B19B0E500C6587F /* MonthViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499887541B19B0E500C6587F /* MonthViewDelegate.swift */; };
+		49AD1EC21B493B0A0062AACA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AD1EC11B493B0A0062AACA /* DetailViewController.swift */; };
+		49C7D8BF1B0DF82500B54023 /* Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C7D8BE1B0DF82500B54023 /* Convenience.swift */; };
+		49CFEB291B1BCCE000A45AE1 /* CenturyViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CFEB281B1BCCE000A45AE1 /* CenturyViewDelegate.swift */; };
+		49CFEB2B1B1BCF2D00A45AE1 /* YearDigitFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CFEB2A1B1BCF2D00A45AE1 /* YearDigitFieldView.swift */; };
+		49D950191B0F647A0019BD22 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D950181B0F647A0019BD22 /* Person.swift */; };
+		49D9501F1B0F820D0019BD22 /* CoreDataStackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D9501E1B0F820D0019BD22 /* CoreDataStackManager.swift */; };
+		49DC14211B4AC83F008BD464 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC14201B4AC83F008BD464 /* Movie.swift */; };
+		49DDDF791B0CAB5A000E58B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DDDF781B0CAB5A000E58B3 /* AppDelegate.swift */; };
+		49DDDF7C1B0CAB5A000E58B3 /* Birthday_Kiwi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49DDDF7A1B0CAB5A000E58B3 /* Birthday_Kiwi.xcdatamodeld */; };
+		49DDDF811B0CAB5A000E58B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DDDF7F1B0CAB5A000E58B3 /* Main.storyboard */; };
+		49DDDF831B0CAB5A000E58B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DDDF821B0CAB5A000E58B3 /* Images.xcassets */; };
+		49DDDF861B0CAB5A000E58B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49DDDF841B0CAB5A000E58B3 /* LaunchScreen.xib */; };
+		49DDDF921B0CAB5A000E58B3 /* Birthday_KiwiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DDDF911B0CAB5A000E58B3 /* Birthday_KiwiTests.swift */; };
+		49E0F5C21B0D0FFD00611F23 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E0F5C11B0D0FFD00611F23 /* TableViewController.swift */; };
+		49E0F5C51B0D1B8200611F23 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E0F5C41B0D1B8200611F23 /* Client.swift */; };
+		49E0F5C71B0D1C2B00611F23 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E0F5C61B0D1C2B00611F23 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49DDDF8C1B0CAB5A000E58B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49DDDF6B1B0CAB5A000E58B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49DDDF721B0CAB5A000E58B3;
+			remoteInfo = "Birthday Kiwi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		490D31CA1B13108A00B8FD18 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = ../StringExtension.swift; sourceTree = "<group>"; };
+		490D31CC1B1313A300B8FD18 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		490D31CE1B13166900B8FD18 /* Alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		490D31D01B13527900B8FD18 /* DayMonthDigitFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayMonthDigitFieldView.swift; sourceTree = "<group>"; };
+		490D31D41B1361A900B8FD18 /* NumericViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumericViewDelegate.swift; path = ../NumericViewDelegate.swift; sourceTree = "<group>"; };
+		493FBF971B19E8A00037AD31 /* CenturyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenturyView.swift; sourceTree = "<group>"; };
+		496615201B11D93F00F9A812 /* NameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		496615221B11D95000F9A812 /* DayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
+		496615241B11D95800F9A812 /* MonthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthViewController.swift; sourceTree = "<group>"; };
+		496615261B11D96000F9A812 /* YearViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YearViewController.swift; sourceTree = "<group>"; };
+		496615281B11F5E600F9A812 /* NumericView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumericView.swift; sourceTree = "<group>"; };
+		4986F8F41B3B29AD001F9FD8 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		4986F8F61B3B344E001F9FD8 /* DateAndTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateAndTime.swift; sourceTree = "<group>"; };
+		499887521B19B06700C6587F /* MonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		499887541B19B0E500C6587F /* MonthViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthViewDelegate.swift; sourceTree = "<group>"; };
+		49AD1EC11B493B0A0062AACA /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		49C7D8BE1B0DF82500B54023 /* Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Convenience.swift; sourceTree = "<group>"; };
+		49CFEB281B1BCCE000A45AE1 /* CenturyViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenturyViewDelegate.swift; sourceTree = "<group>"; };
+		49CFEB2A1B1BCF2D00A45AE1 /* YearDigitFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YearDigitFieldView.swift; sourceTree = "<group>"; };
+		49D950181B0F647A0019BD22 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		49D9501E1B0F820D0019BD22 /* CoreDataStackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStackManager.swift; sourceTree = "<group>"; };
+		49DC14201B4AC83F008BD464 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		49DDDF731B0CAB5A000E58B3 /* Birthday Kiwi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Birthday Kiwi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49DDDF771B0CAB5A000E58B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49DDDF781B0CAB5A000E58B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49DDDF7B1B0CAB5A000E58B3 /* Birthday_Kiwi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Birthday_Kiwi.xcdatamodel; sourceTree = "<group>"; };
+		49DDDF801B0CAB5A000E58B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49DDDF821B0CAB5A000E58B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49DDDF851B0CAB5A000E58B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		49DDDF8B1B0CAB5A000E58B3 /* Birthday KiwiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Birthday KiwiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49DDDF901B0CAB5A000E58B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49DDDF911B0CAB5A000E58B3 /* Birthday_KiwiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday_KiwiTests.swift; sourceTree = "<group>"; };
+		49E0F5C11B0D0FFD00611F23 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		49E0F5C41B0D1B8200611F23 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		49E0F5C61B0D1C2B00611F23 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49DDDF701B0CAB5A000E58B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49DDDF881B0CAB5A000E58B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49D9501C1B0F7DCC0019BD22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				490D31D01B13527900B8FD18 /* DayMonthDigitFieldView.swift */,
+				49CFEB2A1B1BCF2D00A45AE1 /* YearDigitFieldView.swift */,
+				496615281B11F5E600F9A812 /* NumericView.swift */,
+				490D31D41B1361A900B8FD18 /* NumericViewDelegate.swift */,
+				499887521B19B06700C6587F /* MonthView.swift */,
+				499887541B19B0E500C6587F /* MonthViewDelegate.swift */,
+				493FBF971B19E8A00037AD31 /* CenturyView.swift */,
+				49CFEB281B1BCCE000A45AE1 /* CenturyViewDelegate.swift */,
+				4986F8F41B3B29AD001F9FD8 /* CustomTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		49D9501D1B0F7DD40019BD22 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49E0F5C11B0D0FFD00611F23 /* TableViewController.swift */,
+				49AD1EC11B493B0A0062AACA /* DetailViewController.swift */,
+				4986F8F61B3B344E001F9FD8 /* DateAndTime.swift */,
+				496615201B11D93F00F9A812 /* NameViewController.swift */,
+				496615221B11D95000F9A812 /* DayViewController.swift */,
+				496615241B11D95800F9A812 /* MonthViewController.swift */,
+				496615261B11D96000F9A812 /* YearViewController.swift */,
+				490D31CA1B13108A00B8FD18 /* StringExtension.swift */,
+				490D31CE1B13166900B8FD18 /* Alerts.swift */,
+				49D950181B0F647A0019BD22 /* Person.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		49DDDF6A1B0CAB5A000E58B3 = {
+			isa = PBXGroup;
+			children = (
+				49DDDF751B0CAB5A000E58B3 /* Birthday Kiwi */,
+				49DDDF8E1B0CAB5A000E58B3 /* Birthday KiwiTests */,
+				49DDDF741B0CAB5A000E58B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49DDDF741B0CAB5A000E58B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49DDDF731B0CAB5A000E58B3 /* Birthday Kiwi.app */,
+				49DDDF8B1B0CAB5A000E58B3 /* Birthday KiwiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49DDDF751B0CAB5A000E58B3 /* Birthday Kiwi */ = {
+			isa = PBXGroup;
+			children = (
+				49D9501D1B0F7DD40019BD22 /* Controller */,
+				49D9501C1B0F7DCC0019BD22 /* View */,
+				49E0F5C31B0D1B6600611F23 /* Model */,
+				49DDDF821B0CAB5A000E58B3 /* Images.xcassets */,
+				49DDDF781B0CAB5A000E58B3 /* AppDelegate.swift */,
+				49DDDF7F1B0CAB5A000E58B3 /* Main.storyboard */,
+				49DDDF841B0CAB5A000E58B3 /* LaunchScreen.xib */,
+				49DDDF7A1B0CAB5A000E58B3 /* Birthday_Kiwi.xcdatamodeld */,
+				49DDDF761B0CAB5A000E58B3 /* Supporting Files */,
+			);
+			path = "Birthday Kiwi";
+			sourceTree = "<group>";
+		};
+		49DDDF761B0CAB5A000E58B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49DDDF771B0CAB5A000E58B3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49DDDF8E1B0CAB5A000E58B3 /* Birthday KiwiTests */ = {
+			isa = PBXGroup;
+			children = (
+				49DDDF911B0CAB5A000E58B3 /* Birthday_KiwiTests.swift */,
+				49DDDF8F1B0CAB5A000E58B3 /* Supporting Files */,
+			);
+			path = "Birthday KiwiTests";
+			sourceTree = "<group>";
+		};
+		49DDDF8F1B0CAB5A000E58B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49DDDF901B0CAB5A000E58B3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49E0F5C31B0D1B6600611F23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49E0F5C41B0D1B8200611F23 /* Client.swift */,
+				490D31CC1B1313A300B8FD18 /* Database.swift */,
+				49C7D8BE1B0DF82500B54023 /* Convenience.swift */,
+				49DC14201B4AC83F008BD464 /* Movie.swift */,
+				49E0F5C61B0D1C2B00611F23 /* Constants.swift */,
+				49D9501E1B0F820D0019BD22 /* CoreDataStackManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49DDDF721B0CAB5A000E58B3 /* Birthday Kiwi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49DDDF951B0CAB5A000E58B3 /* Build configuration list for PBXNativeTarget "Birthday Kiwi" */;
+			buildPhases = (
+				49DDDF6F1B0CAB5A000E58B3 /* Sources */,
+				49DDDF701B0CAB5A000E58B3 /* Frameworks */,
+				49DDDF711B0CAB5A000E58B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Birthday Kiwi";
+			productName = "Birthday Kiwi";
+			productReference = 49DDDF731B0CAB5A000E58B3 /* Birthday Kiwi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49DDDF8A1B0CAB5A000E58B3 /* Birthday KiwiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49DDDF981B0CAB5A000E58B3 /* Build configuration list for PBXNativeTarget "Birthday KiwiTests" */;
+			buildPhases = (
+				49DDDF871B0CAB5A000E58B3 /* Sources */,
+				49DDDF881B0CAB5A000E58B3 /* Frameworks */,
+				49DDDF891B0CAB5A000E58B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49DDDF8D1B0CAB5A000E58B3 /* PBXTargetDependency */,
+			);
+			name = "Birthday KiwiTests";
+			productName = "Birthday KiwiTests";
+			productReference = 49DDDF8B1B0CAB5A000E58B3 /* Birthday KiwiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49DDDF6B1B0CAB5A000E58B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Dr. Paul R. Zahrl";
+				TargetAttributes = {
+					49DDDF721B0CAB5A000E58B3 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = SWLYN46CAF;
+					};
+					49DDDF8A1B0CAB5A000E58B3 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 49DDDF721B0CAB5A000E58B3;
+					};
+				};
+			};
+			buildConfigurationList = 49DDDF6E1B0CAB5A000E58B3 /* Build configuration list for PBXProject "Birthday Kiwi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49DDDF6A1B0CAB5A000E58B3;
+			productRefGroup = 49DDDF741B0CAB5A000E58B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49DDDF721B0CAB5A000E58B3 /* Birthday Kiwi */,
+				49DDDF8A1B0CAB5A000E58B3 /* Birthday KiwiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49DDDF711B0CAB5A000E58B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49DDDF811B0CAB5A000E58B3 /* Main.storyboard in Resources */,
+				49DDDF861B0CAB5A000E58B3 /* LaunchScreen.xib in Resources */,
+				49DDDF831B0CAB5A000E58B3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49DDDF891B0CAB5A000E58B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49DDDF6F1B0CAB5A000E58B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E0F5C71B0D1C2B00611F23 /* Constants.swift in Sources */,
+				490D31D11B13527900B8FD18 /* DayMonthDigitFieldView.swift in Sources */,
+				496615231B11D95000F9A812 /* DayViewController.swift in Sources */,
+				49CFEB2B1B1BCF2D00A45AE1 /* YearDigitFieldView.swift in Sources */,
+				490D31CF1B13166900B8FD18 /* Alerts.swift in Sources */,
+				4986F8F71B3B344E001F9FD8 /* DateAndTime.swift in Sources */,
+				496615291B11F5E600F9A812 /* NumericView.swift in Sources */,
+				490D31CD1B1313A300B8FD18 /* Database.swift in Sources */,
+				493FBF981B19E8A00037AD31 /* CenturyView.swift in Sources */,
+				49D9501F1B0F820D0019BD22 /* CoreDataStackManager.swift in Sources */,
+				49C7D8BF1B0DF82500B54023 /* Convenience.swift in Sources */,
+				49DC14211B4AC83F008BD464 /* Movie.swift in Sources */,
+				49DDDF7C1B0CAB5A000E58B3 /* Birthday_Kiwi.xcdatamodeld in Sources */,
+				490D31D51B1361A900B8FD18 /* NumericViewDelegate.swift in Sources */,
+				49AD1EC21B493B0A0062AACA /* DetailViewController.swift in Sources */,
+				49DDDF791B0CAB5A000E58B3 /* AppDelegate.swift in Sources */,
+				499887531B19B06700C6587F /* MonthView.swift in Sources */,
+				496615211B11D93F00F9A812 /* NameViewController.swift in Sources */,
+				490D31CB1B13108A00B8FD18 /* StringExtension.swift in Sources */,
+				496615271B11D96000F9A812 /* YearViewController.swift in Sources */,
+				49D950191B0F647A0019BD22 /* Person.swift in Sources */,
+				4986F8F51B3B29AD001F9FD8 /* CustomTableViewCell.swift in Sources */,
+				496615251B11D95800F9A812 /* MonthViewController.swift in Sources */,
+				49E0F5C51B0D1B8200611F23 /* Client.swift in Sources */,
+				499887551B19B0E500C6587F /* MonthViewDelegate.swift in Sources */,
+				49CFEB291B1BCCE000A45AE1 /* CenturyViewDelegate.swift in Sources */,
+				49E0F5C21B0D0FFD00611F23 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49DDDF871B0CAB5A000E58B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49DDDF921B0CAB5A000E58B3 /* Birthday_KiwiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49DDDF8D1B0CAB5A000E58B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49DDDF721B0CAB5A000E58B3 /* Birthday Kiwi */;
+			targetProxy = 49DDDF8C1B0CAB5A000E58B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49DDDF7F1B0CAB5A000E58B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49DDDF801B0CAB5A000E58B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49DDDF841B0CAB5A000E58B3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49DDDF851B0CAB5A000E58B3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49DDDF931B0CAB5A000E58B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49DDDF941B0CAB5A000E58B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49DDDF961B0CAB5A000E58B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Birthday Kiwi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		49DDDF971B0CAB5A000E58B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Birthday Kiwi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		49DDDF991B0CAB5A000E58B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Birthday KiwiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Birthday Kiwi.app/Birthday Kiwi";
+			};
+			name = Debug;
+		};
+		49DDDF9A1B0CAB5A000E58B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Birthday KiwiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Birthday Kiwi.app/Birthday Kiwi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49DDDF6E1B0CAB5A000E58B3 /* Build configuration list for PBXProject "Birthday Kiwi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49DDDF931B0CAB5A000E58B3 /* Debug */,
+				49DDDF941B0CAB5A000E58B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49DDDF951B0CAB5A000E58B3 /* Build configuration list for PBXNativeTarget "Birthday Kiwi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49DDDF961B0CAB5A000E58B3 /* Debug */,
+				49DDDF971B0CAB5A000E58B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49DDDF981B0CAB5A000E58B3 /* Build configuration list for PBXNativeTarget "Birthday KiwiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49DDDF991B0CAB5A000E58B3 /* Debug */,
+				49DDDF9A1B0CAB5A000E58B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		49DDDF7A1B0CAB5A000E58B3 /* Birthday_Kiwi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				49DDDF7B1B0CAB5A000E58B3 /* Birthday_Kiwi.xcdatamodel */,
+			);
+			currentVersion = 49DDDF7B1B0CAB5A000E58B3 /* Birthday_Kiwi.xcdatamodel */;
+			path = Birthday_Kiwi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 49DDDF6B1B0CAB5A000E58B3 /* Project object */;
+}
